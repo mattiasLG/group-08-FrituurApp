@@ -1,0 +1,38 @@
+<Solution>
+    <Folder Name="/Backend/">
+        <Project Path="backend/Communication/FrituurApp.Communication.csproj" />
+        <Project Path="backend/Main/FrituurApp.Main.csproj" />
+
+        <Folder Name="/Backend/Inventory/">
+            <Project Path="backend/Inventory/Application/FrituurApp.Inventory.Application.csproj" />
+            <Project Path="backend/Inventory/Domain/FrituurApp.Inventory.Domain.csproj" />
+            <Project Path="backend/Inventory/Infrastructure/FrituurApp.Inventory.Infrastructure.csproj" />
+            <Project Path="backend/Inventory/Main/FrituurApp.Inventory.Main.csproj" />
+            <Project Path="backend/Inventory/Shared/FrituurApp.Inventory.Shared.csproj" />
+        </Folder>
+
+        <Folder Name="/Backend/Orders/">
+            <Project Path="backend/Orders/Application/FrituurApp.Orders.Application.csproj" />
+            <Project Path="backend/Orders/Domain/FrituurApp.Orders.Domain.csproj" />
+            <Project Path="backend/Orders/Infrastructure/FrituurApp.Orders.Infrastructure.csproj" />
+            <Project Path="backend/Orders/Main/FrituurApp.Orders.Main.csproj" />
+            <Project Path="backend/Orders/Shared/FrituurApp.Orders.Shared.csproj" />
+        </Folder>
+
+        <Folder Name="/Backend/Payments/">
+            <Project Path="backend/Payments/Application/FrituurApp.Payments.Application.csproj" />
+            <Project Path="backend/Payments/Domain/FrituurApp.Payments.Domain.csproj" />
+            <Project Path="backend/Payments/Infrastructure/FrituurApp.Payments.Infrastructure.csproj" />
+            <Project Path="backend/Payments/Main/FrituurApp.Payments.Main.csproj" />
+            <Project Path="backend/Payments/Shared/FrituurApp.Payments.Shared.csproj" />
+        </Folder>
+
+        <Folder Name="/Backend/Tickets/">
+            <Project Path="backend/Tickets/Application/FrituurApp.Tickets.Application.csproj" />
+            <Project Path="backend/Tickets/Domain/FrituurApp.Tickets.Domain.csproj" />
+            <Project Path="backend/Tickets/Infrastructure/FrituurApp.Tickets.Infrastructure.csproj" />
+            <Project Path="backend/Tickets/Main/FrituurApp.Tickets.Main.csproj" />
+            <Project Path="backend/Tickets/Shared/FrituurApp.Tickets.Shared.csproj" />
+        </Folder>
+    </Folder>
+</Solution>
