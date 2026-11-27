@@ -8,6 +8,7 @@ public class DomainDbSeeder(DomainDbContext context, ILogger<DomainDbSeeder> _lo
 {
     public async Task Seed()
     {
+        _logger.LogInformation("Seeding inventory data...");
         await context.SaveChangesAsync();
     }
 }
