@@ -1,3 +1,5 @@
+using FrituurApp.Inventory.Main.Modules.Messaging.DomainEvents;
+
 namespace FrituurApp.Main.Modules.Messaging.DomainEvents;
 
 public static class DomainEventModule
@@ -7,6 +9,7 @@ public static class DomainEventModule
         IConfiguration _configuration
     )
     {
-        return services;
+        return services
+                .AddInventoryDomainEventModule(_configuration);
     }
 }

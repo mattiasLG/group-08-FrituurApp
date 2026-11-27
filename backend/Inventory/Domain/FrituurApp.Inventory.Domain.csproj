@@ -4,4 +4,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Optional.net" Version="4.0.0" />
+    </ItemGroup>
 </Project>

@@ -1,0 +1,20 @@
+services:
+  movies-db:
+    image: postgres:15
+    restart: always
+    container_name: inventory-db
+    env_file:
+    - ./.movies-db.howestprime.dev.env
+    ports:
+      - "40021:5000"
+    networks:
+      - frituurApp-dev
+    volumes: 
+      - movies-db-data:/var/lib/postgresql/data
+
+networks:
+  frituurApp-dev:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.20.0.0/16

@@ -7,11 +7,11 @@ public static class PersistenceModule
         IConfiguration configuration
     )
     {
-        return services.AddEFCoreServices(configuration);
+        return services;
     }
 
     public static async Task<WebApplication> UseEFCoreModule(this WebApplication app)
     {
-        return app;
+        return app; 
     }
 }

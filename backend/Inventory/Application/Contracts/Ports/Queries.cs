@@ -1,0 +1,1 @@
+namespace FrituurApp.Inventory.Application.Contracts.Ports;
